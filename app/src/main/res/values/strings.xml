@@ -1,0 +1,100 @@
+<resources>
+    <string name="app_name">IQ test</string>
+    <string name="button_start">Start</string>
+    <string name="easy">Easy</string>
+    <string name="normal">Normal</string>
+    <string name="hard">Hard</string>
+    <string name="play">play</string>
+    <string name="submit">Submit</string>
+    <string name="IQTest">IQ Test</string>
+    <string name="jobTest">Job Test</string>
+    <string name="personalityTest">Personality Test</string>
+    <string name="question1">Question 1</string>
+    <string name="question1Easy">The most suitable shape to fit in the spot of the question mark?</string>
+    <string name="question2">Question 2</string>
+    <string name="question2Easy">The most suitable shape to fit in the spot of the question mark?</string>
+    <string name="question3">Question 3</string>
+    <string name="question3Easy">The most suitable shape to fit in the spot of the question mark?</string>
+    <string name="question4">Question 4</string>
+    <string name="question4Easy">The most suitable shape to fit in the spot of the question mark?</string>
+    <string name="question5">Question 5</string>
+    <string name="question5Easy">The most suitable shape to fit in the spot of the question mark?</string>
+    <string name="question6">Question 6</string>
+    <string name="question7">Question 7</string>
+    <string name="question8">Question 8</string>
+    <string name="question9">Question 9</string>
+    <string name="question10">Question 10</string>
+    <string name="question6Easy">The most suitable shape to fit in the spot of the question mark?</string>
+    <string name="gender">Gender</string>
+    <string name="TestResult">Test Result</string>
+    <string name="Continue">Continue</string>
+    <string name="finish">Finish</string>
+    <string name="previous">Previous</string>
+    <string name="educationLevel">Education Level</string>
+    <string name="Region">Country</string>
+    <string name="careerTestQ1Ans1">I would rather be a wildlife expert</string>
+    <string name="careerTestQ1Ans2">I would rather be a public relations professional</string>
+    <string name="careerTestQ2Ans1">I would rather be a company controller</string>
+    <string name="careerTestQ2Ans2">I would rather be a Tv news anchor</string>
+    <string name="careerTestQ3Ans1">I would rather be a tax lawyer</string>
+    <string name="careerTestQ3Ans2">I would rather be a newspaper editor</string>
+    <string name="careerTestQ4Ans1">I would rather be a auditor</string>
+    <string name="careerTestQ4Ans2">I would rather be a magician</string>
+    <string name="careerTestQ5Ans1">I would rather be a production manager</string>
+    <string name="careerTestQ5Ans2">I would rather be a advertising manager</string>
+    <string name="careerTestQ6Ans1">I would rather be a accounting manager</string>
+    <string name="careerTestQ6Ans2">I would rather be a history professional</string>
+    <string name="careerTestQ7Ans1">I would rather be a bookkeeper</string>
+    <string name="careerTestQ7Ans2">I would rather be a electrician</string>
+    <string name="careerTestQ8Ans1">I would rather be a writer</string>
+    <string name="careerTestQ8Ans2">I would rather be a elected official</string>
+    <string name="careerTestQ9Ans1">I would rather be a clerical worker</string>
+    <string name="careerTestQ9Ans2">I would rather be a carpenter</string>
+    <string name="careerTestQ10Ans1">I would rather be a payroll manager</string>
+    <string name="careerTestQ10Ans2">I would rather be a engineer manager</string>
+    <string name="q1">Question1.</string>
+    <string name="q2">Question2.</string>
+    <string name="q3">Question3.</string>
+    <string name="q4">Question4.</string>
+    <string name="q5">Question5.</string>
+    <string name="personalityTestQ1">I am not easily bothered by things?</string>
+    <string name="personalityTestQ2">I make friends easily?</string>
+    <string name="personalityTestQ3">I do just enough work to get by?</string>
+    <string name="personalityTestQ4">I respect others?</string>
+    <string name="personalityTestQ5">I dislike myself?</string>
+    <string name="personalityTestAns1">Disagree strongly (not at all me)</string>
+    <string name="personalityTestAns2">Disagree a little</string>
+    <string name="personalityTestAns3">Neither agree or disagree</string>
+    <string name="personalityTestAns4">Agree a little</string>
+    <string name="personalityTestAns5">Agree strongly (this is very like me)</string>
+    <string name="TestResultDescription">Based on your performance on your IQ test, we estimate that: Your IQ is within the range of 100 to 120</string>
+    <string name="PersonalityTestResultDescription">Based on your answer on the Personality test, we estimate: You are a person filled with openess and have appreciation for a variety of experiences</string>
+    <string name="CareerTestResultDescription">Based on your answer on the Career test, we estimate: The most adequate job for you is carpenter</string>
+
+    <string-array name="gender">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string-array name="educationLevel">
+        <item>Primary School</item>
+        <item>Secondary School</item>
+        <item>ITE</item>
+        <item>Polytechnic</item>
+        <item>University</item>
+    </string-array>
+
+    <string-array name="country">
+        <item>Singapore</item>
+        <item>Malaysia</item>
+        <item>China</item>
+        <item>Indonesia</item>
+        <item>Thailand</item>
+        <item>Turkey</item>
+        <item>Ireland</item>
+        <item>United States</item>
+        <item>United Kingdom</item>
+        <item>Dubai</item>
+    </string-array>
+
+</resources>

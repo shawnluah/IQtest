@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewQ1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/q1"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="50dp" />
+
+        <TextView
+            android:id="@+id/textViewQuestion1"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:text="@string/personalityTestQ1"
+            android:textSize="30dp"
+            android:textColor="@android:color/black"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <RadioGroup
+        android:id="@+id/RadioGroupQ1"
+        android:layout_width="match_parent"
+        android:layout_height="406dp"
+        android:layout_weight="1">
+
+        <RadioButton
+            android:id="@+id/radioButtonAns1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:text="@string/personalityTestAns1" />
+
+        <RadioButton
+            android:id="@+id/radioButtonAns2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:text="@string/personalityTestAns2" />
+
+        <RadioButton
+            android:id="@+id/radioButtonAns3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:text="@string/personalityTestAns3" />
+
+        <RadioButton
+            android:id="@+id/radioButtonAns4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:text="@string/personalityTestAns4" />
+
+        <RadioButton
+            android:id="@+id/radioButtonAns5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:text="@string/personalityTestAns5" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/buttonContinue"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+
+        android:background="@android:color/holo_blue_dark"
+        android:textColor="@android:color/white"
+        android:text="@string/Continue" />
+</LinearLayout>

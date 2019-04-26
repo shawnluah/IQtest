@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="451dp"
+        android:orientation="horizontal">
+
+        <RadioGroup
+            android:id="@+id/RadioGroupQ5"
+            android:layout_width="183dp"
+            android:layout_height="397dp">
+
+            <TextView
+                android:id="@+id/textViewQ5"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:text="@string/question5"
+                android:textColor="@android:color/holo_green_light"
+                android:textSize="30dp" />
+
+            <RadioButton
+                android:id="@+id/radioButtonQuestion5Ans1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/careerTestQ5Ans1" />
+
+            <RadioButton
+                android:id="@+id/radioButtonQuestion5Ans2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/careerTestQ5Ans2" />
+
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/RadioGroupQ6"
+            android:layout_width="143dp"
+            android:layout_height="398dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/textViewQ6"
+                android:layout_width="match_parent"
+                android:layout_height="26dp"
+                android:layout_weight="1"
+                android:text="@string/question6"
+                android:textColor="@android:color/holo_green_light"
+                android:textSize="30dp" />
+
+            <RadioButton
+                android:id="@+id/radioButtonQuestion6Ans1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/careerTestQ6Ans1" />
+
+            <RadioButton
+                android:id="@+id/radioButtonQuestion6Ans2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/careerTestQ6Ans2" />
+
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonPrevious"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+
+            android:background="@android:color/holo_blue_dark"
+            android:text="@string/previous"
+
+            android:textColor="@android:color/white" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/buttonContinue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+
+            android:background="@android:color/holo_blue_dark"
+            android:text="@string/Continue"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+</LinearLayout>
